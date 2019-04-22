@@ -6,7 +6,6 @@ Repository for documents about group study
 ### 진행 방식
 > 위의 책을 바탕으로 자율적 학습  
 > 개인이 맡은 파트에 대해서 발표하며 조원들과 함께 토론  
-> 저장 위치 SyudyTeamThree/GoF/
 
 ### 일정
 
