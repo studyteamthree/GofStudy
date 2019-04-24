@@ -1,17 +1,3 @@
----
-
- : post
-
-title : "GoF Design Pattern - Builder Pattern" 
-
-date : 2017-07-20 -0600
-
-categoris : 카테고리
-
----
-
-
-
 # 생성패턴(Creational Pattern) - Builder Pattern
 
 
