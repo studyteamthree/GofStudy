@@ -45,6 +45,7 @@ abstract protected Shape createShape();
 }
 ```
 ##### *추상 클래스로서 상속받은 서브 클래스에게 객체 생성을 위임함.*
+
 *여기서 createShape() 가 FactoryMethod이다.*
 
 ```java
