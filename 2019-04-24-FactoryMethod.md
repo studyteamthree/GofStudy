@@ -29,7 +29,7 @@
 
 ## *구현*
 
-```
+```java
 abstract class ShapeFactory{
   public final Shape create(Color color){
     Shape shape = createShape();
@@ -47,7 +47,7 @@ abstract protected Shape createShape();
 ##### *추상 클래스로서 상속받은 서브 클래스에게 객체 생성을 위임함.*
 *여기서 createShape() 가 FactoryMethod이다.*
 
-```
+```java
 class RectangleFactory extends ShapeFactory{
   @Override
   protected Shape createShape() {
@@ -64,7 +64,7 @@ class CircleFactory extends ShapeFactory{
 ```
 ##### * 추상 클래스를 상속받아 구상 객체를 생산함.*
 
-```
+```java
 interface Shape {
   public void setColor(Color color);
   public void draw();
