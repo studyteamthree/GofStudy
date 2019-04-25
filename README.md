@@ -15,7 +15,7 @@ Repository for documents about group study
 > Overview
 
 #### Day 2
-> [Abstract Factory](https://github.com/BKing625/StudyTeamThree/blob/master/Gof/Test) - 김병관  
+> [Abstract Factory](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-23-ApstractFactory.md) - 김병관  
 > Builder - 문상수  
 > Factory Method - 박필  
 
@@ -26,7 +26,7 @@ Repository for documents about group study
 
 
 #### Day 4
-> Adapter - 김병관  
+> [Adapter](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-25-Adapter.md) - 김병관  
 > Bridge - 문상수  
 > Composite - 박필  
 
