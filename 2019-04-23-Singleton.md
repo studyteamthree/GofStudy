@@ -57,24 +57,11 @@ public class Singleton {
 	private Singleton() {};
 	public static Singleton getInstance() {return instance;}
 }
-문제점 : 2개 이상의 인스턴스가 생성될 수 있다
+문제점 : 클래스 로딩 되는 시점에 만들어져서 메모리 낭비가 됨( 맨 밑 코드가 보완된 것)
+클래스가 인스턴스화 되는 시점에 에러처리를 할 수 없음 
 ```
 
 
-
-
-
-
-
-> **문제점은?**
->
-> - 멀티스레드환경에서 동기화처리를 안하면 인스턴스가 두개가 생성되거나 하는 경우가 있음
->
-> - 싱글톤 인스턴스가 너무 많은 일을 해서 데이터를 공유시킬 경우 다른 클래스의 인스턴스 간에 결합도가 높아짐
->
-> ---
->
-> 
 
 
 
@@ -96,6 +83,8 @@ public class ThreadSafeLazyInitialization {
 		}return instance;
 	}
 }
+
+getInstance() 안에서 생성하기 때문에 메모리 문제해결했으나 성
 문제점 > thread-safe하나 synchronized 특성상 큰 성능저하 발생하므로 권장하지 않음
 ```
 
@@ -117,7 +106,9 @@ public class ThreadSafeLazyInitialization2 {
 		}return instance;
 	}
 }
-존재 여부 확인 후 동기화 -> 성능저화 완화
+
+존재 여부 확인 후 동기화 -> 성능저하 완화
+하지만, 동기화가 들어가기 때문에 완벽하진 않음.
 ```
 
 
@@ -157,6 +148,9 @@ public class Something {
 싱글톤 초기화 문제를 JVM에게 떠넘기는 방식
 
 Holder안에 선언된 instance가 static 이기 때문에  클래스 로딩시점에 한번만 호출.final을 사용해 다시 값이 할당되지 않게.
+
+getInstance() 안에서 생성하기 때문에 메모리 낭비 방지하고, 동기화를 사용하지 않아서 성능이 좋음 
+
 ```
 
 
