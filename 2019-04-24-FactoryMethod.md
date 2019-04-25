@@ -93,3 +93,9 @@ class Circle implements Shape {
 }
 ```
 ##### *Shape을 리턴 타입으로 사용하기 때문에 ShapeFactory를 사용하는 곳에서는 리턴되는 Shape의 구체적인 타입(예제에서는 Rectangle인지 Circle인지)을 알 수 없다.*
+
+
+## 참고 문헌
+- https://keichee.tistory.com/172?category=834910
+- https://effectiveprogramming.tistory.com/entry/Factory-Method-%ED%8C%A8%ED%84%B4-1?category=660013
+- Head First Design Pattern
