@@ -11,13 +11,15 @@
 ## UML Diagram
 ![alt_text](https://gmlwjd9405.github.io/images/design-pattern-composite/composite-pattern.png)
 
-* Component
+ **Component**
  - 구체적인 부분
  - 즉, Leaf 클래스와 전체에 해당하는 Composite 클래스에 공통 인터페이스를 정의.
-* Leaf
+
+**Leaf**
  - 구체적인 부분 클래스
  - Composite 객체의 부품으로 설정한다.
-* Composite
+
+**Composite**
  - 전체 클래스
  - 복수 개의 Component를 갖도록 정의
  - 그러므로, 복수 개의 Leaf, 심지어 복수 개의 Composite 객체를 부분으로 가질 수 있다.
