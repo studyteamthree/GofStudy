@@ -108,10 +108,26 @@ public class Client {
 		computer.addComponent(body);
 		computer.addComponent(monitor);
 		computer.addComponent(Speaker);
-
+		
+		Computer computer2 = new Computer();
+		computer2.addComponent(computer);
+		computer2.addComponent(body);
+		computer2.addComponent(monitor);
+		computer2.addComponent(Speaker);
+		
+		Computer computer3 = new Computer();
+		computer3.addComponent(computer2);
+		computer3.addComponent(keyboard);
+		computer3.addComponent(monitor);
+		computer3.addComponent(Speaker);
+		
+		Computer sumComputer = new Computer();
+		sumComputer.addComponent(computer3);
+		
 		// 컴퓨터의 가격과 전력 소비량을 구함
-		System.out.println("컴퓨터의 가격은 : " + computer.getPrice() + "만원");
-		System.out.println("컴퓨터의 소비 전력은 : " + computer.getPower() + "W");
+		System.out.println("컴퓨터의 가격은 : " + sumComputer.getPrice() + "만원");
+		System.out.println("컴퓨터의 소비 전력은 : " + sumComputer.getPower() + "W");
+
 	}
 }
 ```
