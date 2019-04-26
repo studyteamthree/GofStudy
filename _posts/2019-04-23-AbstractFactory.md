@@ -1,3 +1,9 @@
+---
+title: "Abstract Factory Pattern"
+date: 2019-04-23 20:00:00 +0900
+categories: Gof Study
+---
+
 # Abstract Factory Pattern
 
 ### 추상 팩토리 패턴
