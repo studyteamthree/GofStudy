@@ -32,7 +32,7 @@ Repository for documents about group study
 
 
 #### Day 5
-> Decorator - 유재형  
+> [Decorator](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-26-Decorator.md) - 유재형  
 > Facade - 임혜승  
 
 #### Day 6
