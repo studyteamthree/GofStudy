@@ -21,7 +21,7 @@ Repository for documents about group study
 
 #### Day 3
 > [Prototype](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-23-Prototype.md) - 유재형  
-> [Singleton](https://github.com/studyteamthree/GofStudy/blob/master/_posts2019-04-23-Singleton.md) - 임혜승  
+> [Singleton](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-23-Singleton.md) - 임혜승  
 > 생성 패턴에 대한 논의  
 
  
