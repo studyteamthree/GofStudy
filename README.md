@@ -15,18 +15,18 @@ Repository for documents about group study
 > Overview
 
 #### Day 2
-> [Abstract Factory](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-23-AbstractFactory.md) - 김병관  
+> [Abstract Factory](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-23-AbstractFactory.md) - 김병관  
 > Builder - 문상수  
 > Factory Method - 박필  
 
 #### Day 3
-> [Prototype](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-23-Prototype.md) - 유재형  
+> [Prototype](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-23-Prototype.md) - 유재형  
 > [Singleton](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-23-Singleton.md) - 임혜승  
 > 생성 패턴에 대한 논의  
 
  
 #### Day 4
-> [Adapter](https://github.com/studyteamthree/GofStudy/blob/master/2019-04-25-Adapter.md) - 김병관  
+> [Adapter](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-25-Adapter.md) - 김병관  
 > Bridge - 문상수  
 > Composite - 박필  
 
