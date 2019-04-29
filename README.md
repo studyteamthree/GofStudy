@@ -36,7 +36,7 @@ Repository for documents about group study
 > [Facade](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-26-Facade.md)  - 임혜승  
 
 #### Day 6
-> Flyweight - 김병관  
+> [Flyweight](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-29-Flyweight.md) - 김병관  
 > Proxy - 문상수  
 > 구조 패턴에 대한 논의
 
