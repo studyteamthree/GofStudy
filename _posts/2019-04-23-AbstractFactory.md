@@ -9,7 +9,7 @@ categories: Gof Study
 ### 추상 팩토리 패턴
 인터페이스를 이용하여, 서로 의존적이거나 연관된 객체를 일관되게 생성할 수 있다.   
 UML  
-![](/assets/img/Abstract_factory_UML.svg.png)[1]  
+![](//assets/img/Abstract_factory_UML.svg.png)[1]  
 
 [1]:https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81_%ED%8C%A9%ED%86%A0%EB%A6%AC_%ED%8C%A8%ED%84%B4  
 
