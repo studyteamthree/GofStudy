@@ -21,6 +21,12 @@
 ## 예제
 ![alt_text](https://github.com/studyteamthree/GofStudy/blob/master/assets/img/ChainOfResponsibility.PNG?raw=true)
 
+GOF에는 후속 처리자들의 연결 고리를 구현하는 방법엔 두 가지가 있다고 합니다.
+* 첫째는 새로운 연결을 만드는 것(일반적으로 Handler 클래스에 정의하나 ConcreteHandler 클래스에 정의할 수도 있다.)
+* 둘째는 이미 있는 연결 정보를 사용하는 것 입니다.
+
+상기 예제는 체인의 본질을 이해하기 쉽게 하기 위해 User(사용자) 부분에 연결고리를 만드는 법으로 코드를 작성했다고 합니다.
+
 ```java
 // 연쇄 책임을 처리 할 Main Handler 클래스
 public abstract class Chain {
