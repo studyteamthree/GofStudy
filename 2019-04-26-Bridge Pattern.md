@@ -16,7 +16,7 @@ categories: Gof Study
 
 ### UML Diagram
 
-![1556276032248](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1556276032248.png)
+![1556276032248](assets/img/1556276032248.png)
 
 
 
