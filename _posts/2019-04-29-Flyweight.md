@@ -14,7 +14,7 @@ categories: Gof Study
  객체들 사이에 유사한 데이터를 서로 공유하여 메모리 사용량을 최소화 하는 패턴.
 
 UML  
-![](/assets/img/flyweight_diagram.png)[^1]  
+![](https://github.com/studyteamthree/GofStudy/blob/master/assets/img/flyweight_diagram.png)[^1]  
 
 [^1]: <https://javapapers.com/design-patterns/flyweight-design-pattern/>
 
