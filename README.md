@@ -43,7 +43,7 @@ Repository for documents about group study
 #### Day 7
 > Chain of Responsibility - 박필  
 > Command - 유재형  
-> Interpreter - 임혜승  
+> [Interpreter](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-30-Interpreter)  - 임혜승  
 
 #### Day 8
 
