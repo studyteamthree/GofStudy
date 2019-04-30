@@ -90,6 +90,9 @@ package interpreter;
 public interface Expression {
 	public boolean interpret(String context);
 }
+ 
+```
+```java
 package interpreter;
 
 public class TerminalExpression implements Expression {
@@ -104,8 +107,6 @@ public class TerminalExpression implements Expression {
 	}
 
 }
-```
-
 ```java
 package interpreter;
 
