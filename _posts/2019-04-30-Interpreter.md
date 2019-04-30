@@ -178,11 +178,11 @@ public class InterpreterPatternDemo {
 }
 ```
 
-
-[콘솔결과]
+```
+콘솔결과
 John is male? true
 Julie is a married women? true
----
+```
 
 
 
