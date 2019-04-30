@@ -121,4 +121,5 @@ public class Test {
 ## 참고 자료
 - https://skhong.tistory.com/entry/Chain-of-Responsibility-%ED%8C%A8%ED%84%B4%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
 - http://egloos.zum.com/iilii/v/3863886
+- https://leetaehoon.tistory.com/64   // Handler 인터페이스 구상 클래스에 next 정의한 예제
 - GOF Design Pattern
