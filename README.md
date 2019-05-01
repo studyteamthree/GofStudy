@@ -15,7 +15,7 @@ Repository for documents about group study
 > Overview
 
 #### Day 2
-> [Abstract Factory](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-23-AbstractFactory.md) - 김병관  
+> [Abstract Factory](https://studyteamthree.github.io/GofStudy/gof/study/AbstractFactory/) - 김병관  
 > Builder - 문상수  
 > Factory Method - 박필  
 
@@ -26,7 +26,7 @@ Repository for documents about group study
 
  
 #### Day 4
-> [Adapter](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-25-Adapter.md) - 김병관  
+> [Adapter](https://studyteamthree.github.io/GofStudy/gof/study/Adapter/) - 김병관  
 > Bridge - 문상수  
 > Composite - 박필  
 
@@ -36,7 +36,7 @@ Repository for documents about group study
 > [Facade](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-26-Facade.md)  - 임혜승  
 
 #### Day 6
-> [Flyweight](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-04-29-Flyweight.md) - 김병관  
+> [Flyweight](https://studyteamthree.github.io/GofStudy/gof/study/Flyweight/) - 김병관  
 > Proxy - 문상수  
 > 구조 패턴에 대한 논의
 
@@ -47,14 +47,14 @@ Repository for documents about group study
 
 #### Day 8
 
-> Iterator - 김병관  
+> [Iterator](https://studyteamthree.github.io/GofStudy/gof/study/Iterator/) - 김병관  
 > Mediator - 문상수    
 > Memento - 박필  
 
 #### Day 9
 > Observer - 유재형  
 > State - 임혜승  
-> Strategy - 김병관  
+> [Strategy](https://studyteamthree.github.io/GofStudy/gof/study/Strategy/) - 김병관  
 
 #### Day 10
 > Template Method - 문상수  
