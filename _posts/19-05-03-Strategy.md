@@ -1,0 +1,182 @@
+---
+title: "Strategy Pattern"
+date: 2019-05-03 20:00:00 +0900
+categories: Gof Study
+
+---
+
+
+
+# Strategy Pattern
+
+### 스트래티지 패턴
+
+알고리즘군을 정의하고 각각을 캡슐화하여 교환해서 사용할 수 있도록 만든다. 스트래티지를 활용하면 알고리즘을 사용하는 클라이언트와 독립적으로 알고리즘을 변경할 수 있다.
+
+UML  
+![](https://studyteamthree.github.io/GofStudy/assets/img/strategy_diagram.png)[^1]  
+
+[^1]: <http://www.mcdonaldland.info/2007/11/28/40/>
+
+Strategy
+
+> 제공하는 모든 알고리즘에 대한 공통의 연산들을 인터페이스로 정의
+> Context 클래스에서 ConcreteStrategy 클래스에 정의된 인터페이스를 통해 실제 알고리즘 사용
+
+ConcreteStrategy
+
+> 인터페이스를 실제 알고리즘으로 구현
+
+Context
+
+> Strategy 객체에 대한 참조자를 관리하며, 패턴을 이용하는 인터페이스 역할
+
+
+
+### 예제
+
+오리를 설계해봐요 우리
+
+
+
+여러 종류의 오리들의 공통으로 필요한 행위(연산)을 정의한 인터페이스 (Strategy)
+
+```java
+public interface CrySoundStrategy {
+	void cry();
+}
+
+public interface FlyStrategy {
+	void fly();
+}
+```
+
+오리들의 행위를 구현 (ConcreteStrategy)
+
+```java
+public class CryNoisy implements CrySoundStrategy {
+	@Override
+	public void cry() {
+		System.out.println("꽥꼬ㅒ꽥꿰에엥꿰엑");
+	}
+}
+
+
+public class CryQuiet implements CrySoundStrategy{
+	@Override
+	public void cry() {
+		System.out.println("...");		
+	}
+}
+
+
+public class FlyWithWing implements FlyStrategy {
+	@Override
+	public void fly() {
+		System.out.println("난 날수잇어요 훨훨");		
+	}
+}
+
+
+public class FlyNoWay implements FlyStrategy {
+	@Override
+	public void fly() {
+		System.out.println("날지못해요.");
+	}
+}
+```
+
+오리들의 추상 클래스 (Context)
+
+```java
+public abstract class Duck {
+	CrySoundStrategy _crySound;
+	FlyStrategy _howFly;
+	String getSpecies() {
+		return "오리";
+	}
+	
+	void setCry(CrySoundStrategy crySound) {
+		_crySound = crySound;
+	}
+	
+	void setFly(FlyStrategy howFly) {
+		_howFly = howFly;
+	}
+	
+	void doCry() {
+		_crySound.cry();
+	}
+	
+	void doFly() {
+		_howFly.fly();
+	}
+}
+```
+
+Duck 클래스를 확장하여 다른 행위를 하는 클래스를 설계할수 있다.
+
+```java
+public class NoisyFlyDuck extends Duck {
+	public NoisyFlyDuck() {
+		_crySound = new CryNoisy();
+		_howFly = new FlyWithWing();
+	}
+}
+
+
+public class QuietCanNotFlyDuck extends Duck {
+	public QuietCanNotFlyDuck() {
+		_crySound = new CryQuiet();
+		_howFly = new FlyNoWay();
+	}
+}
+```
+
+
+
+클라이언트
+
+```java
+public class Client {
+	public static void main(String[] args) {
+		Duck flyNoisyDuck = new NoisyFlyDuck();		
+		flyNoisyDuck.doCry();
+		flyNoisyDuck.doFly();
+		System.out.println("-----------");
+		
+		Duck smallQuietDuck = new QuietCanNotFlyDuck();		
+		smallQuietDuck.doCry();
+		smallQuietDuck.doFly();
+		System.out.println("-----------");
+
+		//작고 귀여운 오리가 흉포해졌어요
+		smallQuietDuck.setCry(new CryNoisy());
+		smallQuietDuck.doCry();
+		smallQuietDuck.doFly();
+    
+//		꽥꼬ㅒ꽥꿰에엥꿰엑
+//		난 날수잇어요 훨훨
+//		-----------
+//		...
+//		날지못해요.
+//		-----------
+//		꽥꼬ㅒ꽥꿰에엥꿰엑
+//		날지못해요.
+	}
+}
+
+```
+
+Strategy 패턴을 이용하여 캡슐화된 알고리즘(행위)이 교환이 가능해졌으 객체 생성시 행위의 선택을 위임하게 된다.
+
+------
+
+참고문헌
+
+<http://www.incodom.kr/%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0_%ED%8C%A8%ED%84%B4>
+
+[GoF의 디자인 패턴 ](http://www.yes24.com/24/goods/17525598)
+
+[Head First Design Patterns: 스토리가 있는 패턴 학습법 - 한빛미디어](http://www.hanbit.co.kr/store/books/look.php?p_code=B9860513241)
+
