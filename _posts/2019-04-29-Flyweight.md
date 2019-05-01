@@ -1,5 +1,5 @@
 ---
-title: "Flyweight Pattern"
+title: "Flyweight"
 date: 2019-04-29 20:00:00 +0900
 categories: Gof Study
 
