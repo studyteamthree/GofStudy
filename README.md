@@ -53,7 +53,7 @@ Repository for documents about group study
 
 #### Day 9
 > [Observer](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-05-02-Observer.md) - 유재형  
-> State - 임혜승  
+> [State](https://github.com/studyteamthree/GofStudy/blob/master/_posts/2019-05-02-state.md) - 임혜승  
 > [Strategy](https://studyteamthree.github.io/GofStudy/gof/study/Strategy/) - 김병관  
 
 #### Day 10
