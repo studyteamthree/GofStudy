@@ -1,3 +1,9 @@
+---
+title: "생성패턴(Creational Pattern) - Builder Pattern"
+date: 2019-04-24 20:00:00 +0900
+categories: Gof Study
+---
+
 # 생성패턴(Creational Pattern) - Builder Pattern
 
 
