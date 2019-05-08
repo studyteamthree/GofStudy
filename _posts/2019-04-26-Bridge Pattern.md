@@ -1,8 +1,8 @@
--  ---
+---
    title: "구조패턴(Structural Pattern) - Bridge Pattern"
    date: 2019-04-26 20:00:00 +0900
    categories: Gof Study
-   ---
+---
 
    ## 구조패턴(Structural Pattern) - Bridge Pattern
 
