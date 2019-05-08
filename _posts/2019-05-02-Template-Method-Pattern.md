@@ -1,6 +1,6 @@
 ---
 title: "Abstract Factory Pattern"
-date: 2019-04-23 20:00:00 +0900
+date: 2019-05-02 20:00:00 +0900
 categories: Gof Study
 ---
 
