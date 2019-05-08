@@ -1,7 +1,7 @@
 ---
-   title: "구조패턴(Structural Pattern) - Bridge Pattern"
-   date: 2019-04-26 20:00:00 +0900
-   categories: Gof Study
+title: "구조패턴(Structural Pattern) - Bridge Pattern"
+date: 2019-04-26 20:00:00 +0900
+categories: Gof Study
 ---
 
    ## 구조패턴(Structural Pattern) - Bridge Pattern
@@ -16,7 +16,7 @@
 
    ### UML Diagram
 
-   ![1556276032248](assets/img/1556276032248.png)
+   ![](https://user-images.githubusercontent.com/18109075/57361834-5249cc00-71b8-11e9-8cc4-fdd3deeb0002.png)
 
    
 
