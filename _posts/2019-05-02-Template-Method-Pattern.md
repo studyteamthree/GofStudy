@@ -1,3 +1,9 @@
+---
+title: "Abstract Factory Pattern"
+date: 2019-04-23 20:00:00 +0900
+categories: Gof Study
+---
+
 # 행동 패턴(Behavior Pattern) - 템플릿 메소드
 
 
