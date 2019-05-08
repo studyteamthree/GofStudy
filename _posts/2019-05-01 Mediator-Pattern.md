@@ -1,5 +1,5 @@
 ---
-title: "Abstract Factory Pattern"
+title: "행동패턴(Behavior Pattern) - 중재자 패턴"
 date: 2019-05-01 20:00:00 +0900
 categories: Gof Study
 ---
