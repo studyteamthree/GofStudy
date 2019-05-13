@@ -60,3 +60,16 @@ Repository for documents about group study
 > Template Method - 문상수  
 > Visitor - 박필  
 > 행위 패턴에 대한 논의  
+
+---
+
+# TDD
+책이 늦게오는데 뭔가 해야할거같아서 하는 짜투리
+
+#### TDD?
+
+#### JUnit
+
+#### DbUnit
+
+#### TDD-patterns
